@@ -1,14 +1,14 @@
 <ul class="sidebar-nav" data-coreui="navigation" data-simplebar>
     <li class="nav-item">
-        <a class="nav-link" href="{{ route('home') }}">
+        <a class="nav-link" href="{{ route('todos.index') }}">
             <svg class="nav-icon">
                 <use xlink:href="{{ asset('icons/coreui.svg#cil-speedometer') }}"></use>
             </svg>
-            {{ __('Dashboard') }}
+            {{ __('Todo List') }}
         </a>
     </li>
 
-    <li class="nav-item">
+    {{-- <li class="nav-item">
         <a class="nav-link" href="{{ route('users.index') }}">
             <svg class="nav-icon">
                 <use xlink:href="{{ asset('icons/coreui.svg#cil-user') }}"></use>
@@ -43,5 +43,5 @@
                 </a>
             </li>
         </ul>
-    </li>
+    </li> --}}
 </ul>
